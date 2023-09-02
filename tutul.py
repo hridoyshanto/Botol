@@ -195,7 +195,7 @@ def animation(u):
     for e in u + "\n":sys.stdout.write(e);sys.stdout.flush();time.sleep(0.01)
 os.system("xdg-open https://www.facebook.com/RJ.King.Ok.Bro")
 #------------------[ LOGO-LAKNAT ]-----------------#
-logo =("""          \033[1;37m____ \033[1;32m                       \033[1;37m____          
+logo =("""          \033[1;97m____ \033[1;92m                       \033[1;97m____          
 
 
    ░█▀▀▀█ ░█─░█ ─█▀▀█ ░█▄─░█ ▀▀█▀▀ ░█▀▀▀█ 
