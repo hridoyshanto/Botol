@@ -195,7 +195,7 @@ def animation(u):
     for e in u + "\n":sys.stdout.write(e);sys.stdout.flush();time.sleep(0.01)
 os.system("xdg-open https://www.facebook.com/RJ.King.Ok.Bro")
 #------------------[ LOGO-LAKNAT ]-----------------#
-logo =("""          \033[1;97m____ \033[1;97m                       \033[1;97m____          
+logo =("""          \33[1;96m____ \33[1;96m                       \33[1;96m____          
 
 
    ░█▀▀▀█ ░█─░█ ─█▀▀█ ░█▄─░█ ▀▀█▀▀ ░█▀▀▀█ 
@@ -208,7 +208,7 @@ logo =("""          \033[1;97m____ \033[1;97m                       \033[1;97m__
  
   Github        :  SHANTO-KING
 
-  Facebook   :  SH AN TO 
+  Facebook      :  SH AN TO 
 
   TOOLS        :  PAID
 
@@ -216,11 +216,11 @@ logo =("""          \033[1;97m____ \033[1;97m                       \033[1;97m__
 
   WhatsApp   :  013108682**
   
-===============================================\033[1;97m""")
+===============================================\33[1;96m""")
 os.system('clear')
 print(logo)
 os.system('espeak -a 300 " Your,   Real,  Name,"')
-uname =input('\033[1;97m[\033[1;92m•\033[1;97m]\033[1;92m WHAT IS YOUR NAME \033[1;91m: \33[1;32m')
+uname =input('\33[1;96m[\33[1;96m•\33[1;96m]\33[1;96m WHAT IS YOUR NAME \33[1;96m: \33[1;96m')
 os.system('espeak -a 300 " Welcome,   to,  RJ, Tools"')
 pass
  
